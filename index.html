@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload to Cloudflare</title>
+</head>
+
+<body>
+    <h1>Image Upload</h1>
+
+    <!-- 이미지 업로드 폼 -->
+    <input type="file" id="imageInput" accept="image/*" />
+    <button id="uploadButton">Upload Image</button>
+
+    <!-- 업로드된 이미지 보여줄 영역 -->
+    <div id="resultSection" style="display: none;">
+        <h3>Generated Image:</h3>
+        <img id="resultImage" alt="Generated from MidJourney API" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
