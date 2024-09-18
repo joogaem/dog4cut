@@ -38,7 +38,7 @@ function convertToBase64(file) {
 
 // API에 이미지 업로드하는 함수
 async function uploadImageToAPI(base64Image) {
-    const apiUrl = 'https://ai-dog4cut.cc/uploads';  // API Gateway URL
+    const apiUrl = 'https://wiasl6v3q6.execute-api.ap-northeast-2.amazonaws.com/v1';  // API Gateway URL
 
     const response = await fetch(apiUrl, {
         method: 'POST',
